@@ -3,6 +3,8 @@
 A responsive Tic Tac Toe game built with React. Choose to play against the
 computer or play locally with another person.
 
+<img width="959" height="536" alt="image" src="https://github.com/user-attachments/assets/447230ed-2f80-4476-bd94-da6a5572eece" />
+
 ## Tech stack
 
 - JavaScript (ES modules)
