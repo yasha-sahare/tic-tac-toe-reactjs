@@ -11,10 +11,8 @@ const WIN_LINES = [
 
 export function getWinningLine(board) {
   for (const line of WIN_LINES) {
-    const [first, second, third] = line;
-    const mark = board[first];
-
-    if (mark && mark === board[second] && mark === board[third]) {
+    const [a, b, c] = line;
+    if (board[a] && board[a] === board[b] && board[a] === board[c]) {
       return line;
     }
   }
